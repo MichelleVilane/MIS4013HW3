@@ -3,9 +3,9 @@
   <table class="table">
     <thead>
       <tr>
-        <th>ID</th>
-       <th>Number</th>
-       <th>Description</th>
+        <th>Session ID</th>
+       <th>Trainer ID</th>
+       <th>Class ID</th>
         <th>Daytime</th>
        
       </tr>
