@@ -4,7 +4,7 @@
     <thead>
       <tr>
         <th>ID</th>
-       <th>Name</th>
+       <th>Number</th>
        <th>Description</th>
       </tr>
       
