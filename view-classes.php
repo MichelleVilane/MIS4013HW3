@@ -1,4 +1,4 @@
-<h1>Trainers</h1>
+<h1>Classes</h1>
 <div class="table-responsive">
   <table class="table">
     <thead>
@@ -14,9 +14,9 @@
 while ($class=$classes -> fetch_assoc()) {
 ?>
   <tr>
-    <td><?php echo $trainer['class_id'];?></td>
-    <td><?php echo $trainer['class_name'];?></td>
-    <td><?php echo $trainer['class_description'];?></td>
+    <td><?php echo $class['class_id'];?></td>
+    <td><?php echo $class['class_name'];?></td>
+    <td><?php echo $class['class_description'];?></td>
   </tr>
   <?php
   
