@@ -1,5 +1,5 @@
 <?php
-function selectClasses) {
+function selectClasses() {
     try {
         $conn = get_db_connection();
         $stmt = $conn->prepare("SELECT class_id, class_descripion, class_descripion FROM `class`");
