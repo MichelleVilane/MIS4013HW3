@@ -17,6 +17,12 @@ while ($class=$classes -> fetch_assoc()) {
     <td><?php echo $class['class_id'];?></td>
     <td><?php echo $class['class_number'];?></td>
     <td><?php echo $class['class_descripion'];?></td>
+    <td>
+      <form method="post" action="sessions-by-class.php">
+        <input type="hidden" name="cid" value="<?php echo $class['class_id'];?>">
+        <button type='submit" class=btn btn-primary">Session</button>
+          </form>
+    </td>
   </tr>
   <?php
   
