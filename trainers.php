@@ -1,6 +1,6 @@
 <?php
 require_once("util-db.php");
-require_once("model-trainers.php")
+require_once("model-trainers.php");
   
 $pageTitle= "Home";
 include "view-header.php";
