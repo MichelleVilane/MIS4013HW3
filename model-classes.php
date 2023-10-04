@@ -2,7 +2,7 @@
 function selectClasses() {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("SELECT class_id, class_descripion, class_descripion FROM `class`");
+        $stmt = $conn->prepare("SELECT class_id, class_number, class_descripion FROM `class`");
         $stmt->execute();
         $result = $stmt->get_result();
         $conn->close();
