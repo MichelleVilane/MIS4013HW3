@@ -4,7 +4,7 @@ require_once("model-trainers.php");
   
 $pageTitle= "Trainers";
 include "view-header.php";
-$trainers = selecttrainers();
+$trainers = selectTrainers();
 include "view-trainers.php";
 include "view-footer.php";
 ?>
