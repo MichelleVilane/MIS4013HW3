@@ -19,7 +19,7 @@
       <td><?php echo $session['session_id'];?></td>
       <td><?php echo $session['trainer_id'];?></td>
       <td><?php echo $session['class_id'];?></td>
-      <td><?php echo $class['daytime'] ;?></td>
+      <td><?php echo $session['daytime'] ;?></td>
   </tr>
   <?php
   
