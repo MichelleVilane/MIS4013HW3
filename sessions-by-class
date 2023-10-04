@@ -1,1 +1,10 @@
-
+<?php
+require_once("util-db.php");
+require_once("model-session-by-classr.php");
+  
+$pageTitle= "Session By Class";
+include "view-header.php";
+$trainers = selectSessionByClass();
+include "view-session-by-class.php";
+include "view-footer.php";
+?>
