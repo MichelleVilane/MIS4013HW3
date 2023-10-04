@@ -6,6 +6,7 @@
         <th>ID</th>
        <th>Name</th>
        <th>Studio</th>
+        <th></th>
       </tr>
       
     </thead>
@@ -17,6 +18,7 @@ while ($trainer=$trainers -> fetch_assoc()) {
     <td><?php echo $trainer['trainer_id'];?></td>
     <td><?php echo $trainer['trainer_name'];?></td>
     <td><?php echo $trainer['studio_number'];?></td>
+    <td><a href="classes-by-instructor.php?id=<?php echo $trainer['trainer_id']"> Courses</td>
   </tr>
   <?php
   
