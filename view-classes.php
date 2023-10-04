@@ -11,7 +11,7 @@
     </thead>
       <tbody>
         <?php
-while ($classes=$classes -> fetch_assoc()) {
+while ($class=$classes -> fetch_assoc()) {
 ?>
   <tr>
     <td><?php echo $classes['class_id'];?></td>
