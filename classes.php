@@ -5,6 +5,6 @@ require_once("model-classes.php");
 $pageTitle= "Classes";
 include "view-header.php";
 $class = selectClasses();
-include "view-classess.php";
+include "view-classes.php";
 include "view-footer.php";
 ?>
