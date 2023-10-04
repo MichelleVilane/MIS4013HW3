@@ -13,13 +13,13 @@
     </thead>
       <tbody>
         <?php
-while ($classes=$classes -> fetch_assoc()) {
+while ($class=$classes -> fetch_assoc()) {
 ?>
   <tr>
-    <td><?php echo $classes['class_id'];?></td>
-    <td><?php echo $classes['class_number'];?></td>
-    <td><?php echo $classes['class_description'];?></td>
-     <td><?php echo $classes['daytime'];?></td>
+    <td><?php echo $class['class_id'];?></td>
+    <td><?php echo $class['class_number'];?></td>
+    <td><?php echo $class['class_description'];?></td>
+     <td><?php echo $class['daytime'];?></td>
   </tr>
   <?php
   
