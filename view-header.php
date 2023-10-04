@@ -26,7 +26,7 @@
           <a class="nav-link" href="classes.php">Classes</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="trainers-with-classes.php">Trainers with classes</a>
+          <a class="nav-link" href="classes-by-trainer.php">Classes By Trainer</a>
         </li>
         
       </ul>
