@@ -6,6 +6,7 @@
         <th>ID</th>
        <th>Number</th>
        <th>Description</th>
+        <th>Session</th>
       </tr>
       
     </thead>
@@ -17,6 +18,7 @@ while ($class=$classes -> fetch_assoc()) {
     <td><?php echo $class['class_id'];?></td>
     <td><?php echo $class['class_number'];?></td>
     <td><?php echo $class['class_descripion'];?></td>
+    <td><?php echo $class['daytime'];?></td>
     <td>
       <form method="post" action="sessions-by-class.php">
         <input type="hidden" name="cid" value="<?php echo $class['class_id'];?>">
