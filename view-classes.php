@@ -20,9 +20,9 @@ while ($class=$classes -> fetch_assoc()) {
     <td><?php echo $class['class_descripion'];?></td>
    
     <td>
-      <form method="post" action="sessions-by-class.php">
+      <form method="post" action="session-by-class.php">
         <input type="hidden" name="cid" value="<?php echo $class['class_id'];?>">
-        <button type='submit" class=btn btn-primary">Session</button>
+        <button type="submit" class=btn btn-primary">Session</button>
           </form>
     </td>
   </tr>
