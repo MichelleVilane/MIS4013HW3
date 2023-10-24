@@ -1,7 +1,6 @@
 <h1>Trainers with Classes</h1>
 <div class="card-group">
-
-        <?php
+ <?php
 while ($trainer=$trainers -> fetch_assoc()) {
 ?>
   <div class="card">
@@ -11,7 +10,7 @@ while ($trainer=$trainers -> fetch_assoc()) {
       <p class="card-text">
       <ul class="list-group">        
   <?php
-        $sessions = selectClassesByTrainer($trainer['trainer_id']);
+        $classes = selectClassesByTrainer($trainer['trainer_id']);
         while ($class = $classes ->fetch_assoc()) {
       ?>
     <li class="list-group-item"><?php echo $class['class_number'];?> - <?php echo $class['daytime'];?> - <?php echo $class['class_number'];?></li>
