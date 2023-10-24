@@ -14,7 +14,6 @@ function selectTrainers() {
 }
 
 
-<?php
 function selectClassesByTrainer($tid) {
     try {
         $conn = get_db_connection();
