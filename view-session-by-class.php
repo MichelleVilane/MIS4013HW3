@@ -1,4 +1,4 @@
-<h1>Classes by Trainer</h1>
+<h1>Sessions by Class</h1>
 <div class="table-responsive">
   <table class="table">
     <thead>
