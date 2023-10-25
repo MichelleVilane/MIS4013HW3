@@ -2,7 +2,7 @@
 function selectClasses() {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("SELECT class_id, class_number, class_descripion FROM `class`");
+        $stmt = $conn->prepare("SELECT class_id, class_number, class_description FROM `class`");
         $stmt->execute();
         $result = $stmt->get_result();
         $conn->close();
@@ -16,7 +16,7 @@ function selectClasses() {
 function insertClass($cNumber, $cDescription) {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("INSERT INTO `class` ( `class_number`, `class_descripion`) VALUES (?, ?)");
+        $stmt = $conn->prepare("INSERT INTO `class` ( `class_number`, `class_description`) VALUES (?, ?)");
         $stmt->bind_param("ss", $cNumber, $cDescription);
         $success= $stmt->execute();
         $conn->close();
@@ -29,7 +29,7 @@ function insertClass($cNumber, $cDescription) {
 function updateClass($cNumber, $cDescription, $cid) {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("update `class` set `class_number`= ?, `class_descripion`= ? where course_id=?");
+        $stmt = $conn->prepare("update `class` set `class_number`= ?, `class_description`= ? where course_id=?");
         $stmt->bind_param("ssi", $cNumber, $cDescription, $cid);
         $success= $stmt->execute();
         $conn->close();
