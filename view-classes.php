@@ -30,6 +30,9 @@ while ($class=  $classes -> fetch_assoc()) {
     <td><?php echo $class['class_number'];?></td>
     <td><?php echo $class['class_description'];?></td>
    <td>
+       <?php
+include "view-classes-editform.php";
+?>
    </td>
     <td>
         <form method="post" action="">
