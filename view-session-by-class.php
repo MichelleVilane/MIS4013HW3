@@ -3,7 +3,6 @@
   <table class="table">
     <thead>
       <tr>
-        
        <th>Class Description</th>
         <th>Daytime</th>
        
