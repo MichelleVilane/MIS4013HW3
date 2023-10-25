@@ -23,7 +23,7 @@
          <div class="mb-3">
             <label for="cDescription" class="form-label">Class Description</label>
             <input type="text" class="form-control" id="cDescription" name="cDescription">
-    </div>
+          </div>
           <button type="submit" class="btn btn-primary">Save</button>
       </form>
       </div>
