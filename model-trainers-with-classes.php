@@ -12,8 +12,33 @@ function selectTrainers() {
         throw $e;
     }
 }
+function selectTrainersForInput() {
+    try {
+        $conn = get_db_connection();
+        $stmt = $conn->prepare("SELECT trainer_id, trainer_name FROM `trainer` order by trainer_name");
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $conn->close();
+        return $result;
+    } catch (Exception $e) {
+        $conn->close();
+        throw $e;
+    }
+}
 
-
+function selectClassesForInput() {
+    try {
+        $conn = get_db_connection();
+        $stmt = $conn->prepare("SELECT class_id, class_number, class_description FROM `class` order by class_description");
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $conn->close();
+        return $result;
+    } catch (Exception $e) {
+        $conn->close();
+        throw $e;
+    }
+}
 function selectClassesByTrainer($tid) {
     try {
         $conn = get_db_connection();
@@ -29,32 +54,8 @@ function selectClassesByTrainer($tid) {
     }
 }
 
-function selectTrainersForInput() {
-    try {
-        $conn = get_db_connection();
-        $stmt = $conn->prepare("SELECT trainer_id, trainer_name FROM `trainer` order by trainer_name");
-        $stmt->execute();
-        $result = $stmt->get_result();
-        $conn->close();
-        return $result;
-    } catch (Exception $e) {
-        $conn->close();
-        throw $e;
-    }
-}
-function selectClassesForInput() {
-    try {
-        $conn = get_db_connection();
-        $stmt = $conn->prepare("SELECT class_id, class_number, class_description FROM `class` order by class_description");
-        $stmt->execute();
-        $result = $stmt->get_result();
-        $conn->close();
-        return $result;
-    } catch (Exception $e) {
-        $conn->close();
-        throw $e;
-    }
-}
+
+
 function insertDescription($tid, $cid,$cDescription, $daytime) {
     try {
         $conn = get_db_connection();
