@@ -19,12 +19,16 @@
           <div class="mb-3">
             <label for="cNumber" class="form-label">Class Number</label>
             <input type="text" class="form-control" id="cNumber" name="cNumber">
-       
+          </div>
          <div class="mb-3">
             <label for="cDescription" class="form-label">Class Description</label>
             <input type="text" class="form-control" id="cDescription" name="cDescription">
-    
+    </div>
           <button type="submit" class="btn btn-primary">Save</button>
-        
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
 
 
