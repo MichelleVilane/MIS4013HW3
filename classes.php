@@ -26,7 +26,7 @@ if (isset($_POST['actionType'])) {
      }
  }
    
-$class = selectClasses();
+$classes = selectClasses();
 include "view-classes.php";
 include "view-footer.php";
 ?>
