@@ -13,9 +13,15 @@ if (isset($_POST['actionType'])) {
     } else {
       echo '<div class="alert alert-danger" role="alert"> Error. </div>';
     }
-   
      break;
    case "Delete":
+     case "Edit":
+    if (updateClass($_POST['cNumber'], $_POST['cDescription', $_POST['cid'])) {
+      echo '<div class="alert alert-success" role="alert"> Course Edited. </div>';
+    } else {
+      echo '<div class="alert alert-danger" role="alert"> Error. </div>';
+    }
+     break;
     if (deleteClass($_POST['cid'])) {
       echo '<div class="alert alert-success" role="alert"> Course Deleted. </div>';
     } else {
@@ -30,3 +36,4 @@ $classes = selectClasses();
 include "view-classes.php";
 include "view-footer.php";
 ?>
+
