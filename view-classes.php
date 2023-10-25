@@ -38,7 +38,7 @@ while ($class=  $classes -> fetch_assoc()) {
   <?php
   
 }
-       ?>
+       
       </tbody>
   </table>
 </div>
