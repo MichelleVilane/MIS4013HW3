@@ -42,7 +42,4 @@ while ($class=  $classes -> fetch_assoc()) {
       </tbody>
   </table>
 </div>
-       ?>
-      </tbody>
-  </table>
-</div>
+      
