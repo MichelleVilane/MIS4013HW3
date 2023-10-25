@@ -12,7 +12,7 @@ while ($trainer=$trainers -> fetch_assoc()) {
         $classes = selectClassesByTrainer($trainer['trainer_id']);
         while ($class = $classes ->fetch_assoc()) {
       ?>
-    <li class="list-group-item"><?php echo $class['class_id'];?> - <?php echo $class['daytime'];?> - <?php echo $class['class_number'];?></li>       
+    <li class="list-group-item"><?php echo $class['class_description'];?> - <?php echo $class['daytime'];?> - <?php echo $class['class_number'];?></li>       
       <?php
         }
    ?>
