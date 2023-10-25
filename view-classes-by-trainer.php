@@ -18,7 +18,7 @@ while ($class=$classes -> fetch_assoc()) {
   <tr>
     <td><?php echo $class['class_id'];?></td>
     <td><?php echo $class['class_number'];?></td>
-    <td><?php echo $class['class_descripion'];?></td>
+    <td><?php echo $class['class_description'];?></td>
      <td><?php echo $class['daytime'];?></td>
   </tr>
   <?php
