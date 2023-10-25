@@ -29,7 +29,7 @@ function insertClass($cNumber, $cDescription) {
 function updateClass($cNumber, $cDescription, $cid) {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("update `class` set `class_number`= ?, `class_description`= ? where course_id=?");
+        $stmt = $conn->prepare("update `class` set `class_number`= ?, `class_description`= ? where class_id=?");
         $stmt->bind_param("ssi", $cNumber, $cDescription, $cid);
         $success= $stmt->execute();
         $conn->close();
@@ -42,7 +42,7 @@ function updateClass($cNumber, $cDescription, $cid) {
 function deleteClass($cid) {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("delete from course where course_id=?");       
+        $stmt = $conn->prepare("delete from class where class_id=?");       
         $stmt->bind_param("i", $cid);
         $success= $stmt->execute();
         $conn->close();
