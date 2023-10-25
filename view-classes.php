@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col">
+<div class="col">
     <h1>Classes</h1>
   </div>
   <div class="col-auto">
@@ -16,11 +16,11 @@ include "view-classes-newform.php";
        <th>Number</th>
        <th>Description</th>
         <th>Session</th>
+      <th></th>
       </tr>
-      
     </thead>
       <tbody>
-        <?php
+<?php
 while ($class=  $classes -> fetch_assoc()) {
 ?>
   <tr>
