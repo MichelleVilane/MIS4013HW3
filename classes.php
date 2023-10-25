@@ -17,7 +17,7 @@ if (isset($_POST['actionType'])) {
      break;
      }
  }
-$class = selectClasses();
+$classes = selectClasses();
 include "view-classes.php";
 include "view-footer.php";
 ?>
