@@ -25,7 +25,6 @@
             <input type="text" class="form-control" id="cDescription" name="cDescription">
     
           <button type="submit" class="btn btn-primary">Save</button>
-        </form>
+        
     </div>
-  
-</div>
+
