@@ -6,13 +6,18 @@ $pageTitle= "Classes";
 include "view-header.php";
 
 if (isset($_POST['actionType'])) {
- switch ($_POST['actionType']) {
+ switch ($_POST ['actionType']) {
    case "Add":
-     insertClass($_POST['cNumber'], $_POST['cDescription']);
-   break;
-   }
+    if (insertClass($_POST['cNumber'], $_POST['cDescription'])) {
+      echo '<div class="alert alert-success" role="alert"> Course Added. </div>';
+    } else {
+      echo '<div class="alert alert-danger" role="alert"> Error. </div>';
+    }
+   
+     break;
+     }
  }
-$classes = selectClasses();
+$class = selectClasses();
 include "view-classes.php";
 include "view-footer.php";
 ?>
