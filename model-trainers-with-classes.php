@@ -55,7 +55,7 @@ function selectClassesForInput() {
         throw $e;
     }
 }
-function insertSession($cNumber, $cDescription) {
+function insertDescription($cNumber, $cDescription) {
     try {
         $conn = get_db_connection();
         $stmt = $conn->prepare("INSERT INTO `class` ( `class_number`, `class_description`) VALUES (?, ?)");
