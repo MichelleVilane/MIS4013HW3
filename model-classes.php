@@ -42,7 +42,7 @@ function updateClass($cNumber, $cDescription, $cid) {
 function deleteClass($cid) {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("delete from course where course_id=?");       
+        $stmt = $conn->prepare("delete from class where class_id=?");       
         $stmt->bind_param("i", $cid);
         $success= $stmt->execute();
         $conn->close();
