@@ -13,7 +13,7 @@
     </thead>
       <tbody>
         <?php
-    while ($session=$sessions -> fetch_assoc()) {
+    while ($session=$session -> fetch_assoc()) {
 ?>
   <tr>
       <td><?php echo $session['session_id'];?></td>
