@@ -55,7 +55,7 @@ function selectClassesForInput() {
         throw $e;
     }
 }
-function insertDescription($cNumber, $cDescription) {
+function insertDescription($tid, $cid,$cDescription, $daytime) {
     try {
         $conn = get_db_connection();
         $stmt = $conn->prepare("INSERT INTO `class` ( `class_number`, `class_description`) VALUES (?, ?)");
