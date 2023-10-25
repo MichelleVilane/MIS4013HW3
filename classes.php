@@ -14,7 +14,6 @@ if (isset($_POST['actionType'])) {
       echo '<div class="alert alert-danger" role="alert"> Error. </div>';
     }
      break;
-   case "Delete":
      case "Edit":
     if (updateClass($_POST['cNumber'], $_POST['cDescription'], $_POST['cid'])) {
       echo '<div class="alert alert-success" role="alert"> Course Edited. </div>';
@@ -22,6 +21,7 @@ if (isset($_POST['actionType'])) {
       echo '<div class="alert alert-danger" role="alert"> Error. </div>';
     }
      break;
+   case "Delete":
     if (deleteClass($_POST['cid'])) {
       echo '<div class="alert alert-success" role="alert"> Course Deleted. </div>';
     } else {
