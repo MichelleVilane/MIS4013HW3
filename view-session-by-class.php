@@ -3,6 +3,7 @@
   <table class="table">
     <thead>
       <tr>
+        <th>Trainer</th>
        <th>Class Description</th>
         <th>Daytime</th>
        
@@ -14,7 +15,7 @@
     while ($session=$sessions -> fetch_assoc()) {
 ?>
   <tr>
-      
+       <td><?php echo $session['trainer_name'] ;?></td>
       <td><?php echo $session['class_description'];?></td>
       <td><?php echo $session['daytime'] ;?></td>
   </tr>
