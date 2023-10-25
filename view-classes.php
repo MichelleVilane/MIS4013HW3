@@ -1,4 +1,13 @@
-<h1>Classes</h1>
+<div class="row" >
+<div class="col">
+    <h1>Classes</h1>
+  </div>
+  <div class="col-auto">
+<?php
+include "view-classes-newform.php";
+?>
+</div>
+</div>
 <div class="table-responsive">
   <table class="table">
     <thead>
@@ -7,12 +16,12 @@
        <th>Number</th>
        <th>Description</th>
         <th>Session</th>
+      <th></th>
       </tr>
-      
     </thead>
       <tbody>
-        <?php
-while ($class=$classes -> fetch_assoc()) {
+<?php
+while ($class=  $classes -> fetch_assoc()) {
 ?>
   <tr>
     <td><?php echo $class['class_id'];?></td>
@@ -29,6 +38,10 @@ while ($class=$classes -> fetch_assoc()) {
   <?php
   
 }
+       ?>
+      </tbody>
+  </table>
+</div>
        ?>
       </tbody>
   </table>
