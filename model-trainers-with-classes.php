@@ -68,11 +68,11 @@ function insertDescription($cNumber, $cDescription) {
         throw $e;
     }
 }
-function updateSession($tid,  $cid, $daytime,$cDescription) {
+function updateDescription($tid, $daytime,$cDescription) {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("update `class` set `class_number`= ?, `class_description`= ? where class_id=?");
-        $stmt->bind_param("iiss", $tid,  $cid, $daytime,$cDescription);
+        $stmt = $conn->prepare("update `class` set `class_description`= ? where class_id=?");
+        $stmt->bind_param("iss", $tid,$cDescription, $daytime);
         $success= $stmt->execute();
         $conn->close();
         return $success;
@@ -81,11 +81,11 @@ function updateSession($tid,  $cid, $daytime,$cDescription) {
         throw $e;
     }
 }
-function deleteSession($cid) {
+function deleteSession($tid) {
     try {
         $conn = get_db_connection();
         $stmt = $conn->prepare("delete from class where class_id=?");       
-        $stmt->bind_param("i", $cid);
+        $stmt->bind_param("i", $tid);
         $success= $stmt->execute();
         $conn->close();
         return $success;
