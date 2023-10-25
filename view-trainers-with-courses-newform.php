@@ -19,8 +19,8 @@
           <div class="mb-3">
             <label for="tid" class="form-label">Trainer</label>
             <?php
-$InstructorList= selectInstructorForInput();
-include "view-instructor-input-list.php";
+$trainerList= selectInstructorForInput();
+include "view-trainer-input-list.php";
 ?>
           </div>
          <div class="mb-3">
