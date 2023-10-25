@@ -42,7 +42,7 @@ function selectTrainersForInput() {
         throw $e;
     }
 }
-function selectClassessForInput() {
+function selectClassesForInput() {
     try {
         $conn = get_db_connection();
         $stmt = $conn->prepare("SELECT class_id, class_number, class_description FROM `class` order by class_description");
@@ -68,11 +68,11 @@ function insertSession($cNumber, $cDescription) {
         throw $e;
     }
 }
-function updateClass($cNumber, $cDescription, $cid) {
+function updateSession($tid,  $cid, $daytime,$cDescription) {
     try {
         $conn = get_db_connection();
         $stmt = $conn->prepare("update `class` set `class_number`= ?, `class_description`= ? where class_id=?");
-        $stmt->bind_param("ssi", $cNumber, $cDescription, $cid);
+        $stmt->bind_param("iiss", $tid,  $cid, $daytime,$cDescription);
         $success= $stmt->execute();
         $conn->close();
         return $success;
@@ -81,7 +81,7 @@ function updateClass($cNumber, $cDescription, $cid) {
         throw $e;
     }
 }
-function deleteClass($cid) {
+function deleteSession($cid) {
     try {
         $conn = get_db_connection();
         $stmt = $conn->prepare("delete from class where class_id=?");       
