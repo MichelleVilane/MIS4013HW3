@@ -15,9 +15,18 @@ if (isset($_POST['actionType'])) {
     }
    
      break;
+   case "Delete":
+    if (deleteClass($_POST['cNumber'], $_POST['cDescription'])) {
+      echo '<div class="alert alert-success" role="alert"> Course Deleted. </div>';
+    } else {
+      echo '<div class="alert alert-danger" role="alert"> Error. </div>';
+    }
+   
+     break;
      }
  }
-$classes = selectClasses();
+   
+$class = selectClasses();
 include "view-classes.php";
 include "view-footer.php";
 ?>
