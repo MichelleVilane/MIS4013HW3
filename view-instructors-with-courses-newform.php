@@ -25,11 +25,16 @@ include "view-instructor-input-list.php";
           </div>
          <div class="mb-3">
             <label for="cDescription" class="form-label">Class Description</label>
-            <input type="text" class="form-control" id="cDescription" name="cid">
+            <input type="text" class="form-control" id="cDescription" name="cDescription">
+          </div>
+       
+        <div class="mb-3">
+            <label for="daytime" class="form-label">Daytime</label>
+            <input type="text" class="form-control" id="daytime" name="daytime">
           </div>
         <div class="mb-3">
-            <label for="cid" class="form-label">Class</label>
-            <input type="text" class="form-control" id="cid" name="cid">
+            <label for="cNumber" class="form-label">Class Number</label>
+            <input type="text" class="form-control" id="cNumber" name="cNumber">
           </div>
         <input type="hidden" name="actionType" value="Add">
           <button type="submit" class="btn btn-primary">Save</button>
