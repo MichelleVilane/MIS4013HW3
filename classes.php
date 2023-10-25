@@ -8,9 +8,14 @@ include "view-header.php";
 if (isset($_POST['actionType'])) {
  switch ($_POST ['actionType']) {
    case "Add":
-     insertClass($_POST['cNumber'], $_POST['cDescription']);
+    if (insertClass($_POST['cNumber'], $_POST['cDescription'])) {
+      echo '<div class="alert alert-success" role="alert"> Course Added. </div>';
+    } else {
+      echo '<div class="alert alert-danger" role="alert"> Error. </div>';
+    }
+   
      break;
- }
+     }
  }
 $class = selectClasses();
 include "view-classes.php";
