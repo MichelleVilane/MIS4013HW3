@@ -6,7 +6,7 @@ $pageTitle= "Classes";
 include "view-header.php";
 
 if (isset($_POST['actionType'])){
- switch($_POST ['actionType'])){
+ switch($_POST ['actionType']){
    case "Add":
      insertClass($_POST['cNumber'], $_POST['cDescription']);
    break;
