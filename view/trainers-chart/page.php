@@ -39,11 +39,8 @@ while ($trainer=$trainers -> fetch_assoc()) {
 </script>
 
 
-  <div>
-  <canvas id="myChart2"></canvas>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
+ <div id="chart"></div>
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
    <script>
     var options = {
           series: [{
