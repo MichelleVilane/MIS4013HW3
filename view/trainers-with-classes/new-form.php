@@ -20,7 +20,7 @@
             <label for="tid" class="form-label">Trainer</label>
             <?php
 $InstructorList= selectInstructorForInput();
-include "view-instructor-input-list.php";
+include "view/instructor/input-list.php";
 ?>
           </div>
          <div class="mb-3">
