@@ -57,3 +57,21 @@
   var chart = new ApexCharts(document.querySelector("#chart"), options);
   chart.render();
 </script>
+
+<div id="chart3"></div>
+ <script src="https://cdn.plot.ly/plotly-latest.min.js">
+var data = [{
+  values: trainersData.map(trainer => trainer.sessions),
+    }],,
+  labels: trainersData.map(trainer => trainer.sessions),
+    }],,
+  type: 'pie'
+}];
+
+var layout = {
+  height: 400,
+  width: 500
+};
+
+Plotly.newPlot('myDiv', data, layout);
+</script>
