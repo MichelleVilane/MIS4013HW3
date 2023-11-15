@@ -28,6 +28,9 @@
          <li class="nav-item">    
          <a class="nav-link" href="trainers-with-classes.php">Trainers with Classes</a>
         </li>
+        <li class="nav-item">    
+         <a class="nav-link" href="trainers-chart.php">Trainers Chart</a>
+        </li>
         
       </ul>
      
