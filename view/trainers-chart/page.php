@@ -33,9 +33,9 @@ while ($trainer=$trainers -> fetch_assoc()) {
 },
     
   });
-</script>
 
-var options = {
+  
+  var options = {
           series: [{
           data: {
     datasets: [{
@@ -73,6 +73,9 @@ while ($trainer=$trainers -> fetch_assoc()) {
         var chart = new ApexCharts(document.querySelector("#chart"), options);
         chart.render();
       
+</script>
+
+
       
     
  
