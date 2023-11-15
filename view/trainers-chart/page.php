@@ -35,7 +35,17 @@ while ($trainer=$trainers -> fetch_assoc()) {
   });
 
   
-  var options = {
+ 
+</script>
+
+
+  <div>
+  <canvas id="myChart2"></canvas>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+   <script>
+    var options = {
           series: [{
           data: {
     datasets: [{
@@ -72,11 +82,6 @@ while ($trainer=$trainers -> fetch_assoc()) {
 },
         var chart = new ApexCharts(document.querySelector("#chart"), options);
         chart.render();
-      
-</script>
-
-
-      
-    
+       </script> 
  
    
