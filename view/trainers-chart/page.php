@@ -15,7 +15,7 @@
         data: [
 <?php
 while ($trainer=$trainers -> fetch_assoc()) {
-  echo $instructor['num_sessions'] . ", ";
+  echo $trainer['num_sessions'] . ", ";
 }
 ?>     
         ]
