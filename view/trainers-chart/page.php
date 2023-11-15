@@ -79,11 +79,12 @@
 <script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
 <script>
 new Chartist.Line('.ct-chart', {
-  labels:  trainersData.map(trainer => trainer.name),
-  series: trainersData.map(trainer => trainer.sessions), {
-  fullWidth: true,
-  chartPadding: {
-    right: 40
-  }
-});
-</script>
+      labels: trainersData.map(trainer => trainer.name),
+      series: [trainersData.map(trainer => trainer.sessions)],
+    }, {
+      fullWidth: true,
+      chartPadding: {
+        right: 40
+      }
+    });
+  </script>
