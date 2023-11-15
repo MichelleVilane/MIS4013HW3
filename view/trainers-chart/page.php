@@ -58,20 +58,19 @@
   chart.render();
 </script>
 
-<div id="chart3"></div>
- <script src="https://cdn.plot.ly/plotly-latest.min.js">
-var data = [{
-  values: trainersData.map(trainer => trainer.sessions),
-    }],,
-  labels: trainersData.map(trainer => trainer.sessions),
-    }],,
-  type: 'pie'
-}];
+<div id="myDiv" style="height: 400px; width: 500px;"></div>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script>
+  var data = [{
+    values: trainersData.map(trainer => trainer.sessions),
+    labels: trainersData.map(trainer => trainer.name),
+    type: 'pie'
+  }];
 
-var layout = {
-  height: 400,
-  width: 500
-};
+  var layout = {
+    height: 400,
+    width: 500
+  };
 
-Plotly.newPlot('myDiv', data, layout);
+  Plotly.newPlot('myDiv', data, layout);
 </script>
