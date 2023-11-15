@@ -84,7 +84,7 @@ new Chartist.Line('.ct-chart', {
     }, {
       fullWidth: true,
       chartPadding: {
-        right: 20
+        right: 5
       }
     });
   </script>
