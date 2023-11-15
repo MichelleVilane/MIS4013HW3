@@ -34,5 +34,46 @@ while ($trainer=$trainers -> fetch_assoc()) {
     
   });
 </script>
+
+var options = {
+          series: [{
+          data: {
+    datasets: [{
+        data: [
+<?php
+while ($trainer=$trainers -> fetch_assoc()) {
+  echo $trainer['num_sessions'] . ", ";
+}
+?>     
+        ]
+    }],
+          chart: {
+          type: 'bar',
+          height: 350
+        },
+        plotOptions: {
+          bar: {
+            borderRadius: 4,
+            horizontal: true,
+          }
+        },
+        dataLabels: {
+          enabled: false
+        },
+        xaxis: {
+          categories:  [
+        <?php
+$trainers= selectTrainers();
+while ($trainer=$trainers -> fetch_assoc()) {
+  echo "'" . $trainer['trainer_name'] . "', ";
+}
+?> 
+    ]
+},
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+      
+      
+    
  
    
