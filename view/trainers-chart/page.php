@@ -76,7 +76,8 @@
 </script>
 
  <div class="ct-chart"></div>
-<script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js">
+<script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+<script>
 new Chartist.Line('.ct-chart', {
   labels:  trainersData.map(trainer => trainer.name),
   series: trainersData.map(trainer => trainer.sessions), {
