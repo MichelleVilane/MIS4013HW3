@@ -1,6 +1,8 @@
 <div class="row" >
 <div class="col">
-    <h1>Classes</h1>
+    <div class="text-bg-danger p-3">
+  <h1> Dates</h1>
+</div>
   </div>
   <div class="col-auto">
 <?php
