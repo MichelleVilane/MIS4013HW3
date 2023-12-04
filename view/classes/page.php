@@ -2,7 +2,7 @@
 <div class="col">
     <br></br>
     <div class="text-bg-danger p-3">
-  <h1> Dates</h1>
+  <h1> My Date Preferences</h1>
 </div>
     <br></br>
   </div>
