@@ -2,7 +2,7 @@
 require_once("util-db.php");
 require_once("model/classes.php");
   
-$pageTitle= "Classes";
+$pageTitle= "Dates";
 include "view-header.php";
 
 if (isset($_POST['actionType'])) {
