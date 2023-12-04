@@ -20,7 +20,7 @@
             <label for="cNumber" class="form-label">Class Number</label>
         <?php
 $classList= selectClassesForInput();
-include "view/classes/page.php";
+include "view/classes/input-list.php";
 
 ?>
           </div>
