@@ -2,7 +2,7 @@
 require_once("util-db.php");
 require_once("model/classes.php");
   
-$pageTitle= "Dates";
+$pageTitle= "My Date Preferences";
 include "view-header.php";
 
 if (isset($_POST['actionType'])) {
