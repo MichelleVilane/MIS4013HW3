@@ -2,7 +2,7 @@
 function selectClasses() {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("SELECT class_id, class_number, class_description, day FROM `class`");
+        $stmt = $conn->prepare("SELECT class_id, class_number, class_description, day FROM `class`c join session s on s.class_id=c.class_id");
         $stmt->execute();
         $result = $stmt->get_result();
         $conn->close();
