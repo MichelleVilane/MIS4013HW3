@@ -14,7 +14,6 @@ function selectClasses() {
 }
 
 
-
 function insertClass($cNumber, $cDescription) {
     try {
         $conn = get_db_connection();
