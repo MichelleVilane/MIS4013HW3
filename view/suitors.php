@@ -12,8 +12,8 @@
   <div style="width: 100%; text-align: center;">
     <span style="display: inline-block; margin: 0 auto; border: 5px solid black; padding: 10px;">
          
-    <p>Hello, Michelle! Welcome back to your Cupid's Bow user portal. Here is a list of your potential dates and their preferred location to meet. 
-    to see more information about your suitor's meeting preferences, click the 'additional information' hyperlink. To make or cancel a date, please click on the 'Date' section of the navigation bar at the top of the screen. Goodluck!</p>
+    <p>Hello, Michelle! Welcome back to your Cupid's Bow user portal. Here is a list of your potential dates and their preferred restaurants in case you want to meet somewhere different. 
+    To see more information about your suitor's archery preferences, click the 'additional information' hyperlink. To edit your archery preferences, please click on the 'Date' section of the navigation bar at the top of the screen. Goodluck!</p>
         
     </span>
   </div>
