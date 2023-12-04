@@ -26,10 +26,10 @@ include "view-header.php";
           <img src="couple2.webp" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="couple5.jpg" class="d-block w-100" alt="...">
+          <img src="couples archery.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="couple3.jpg" class="d-block w-100" alt="...">
+          <img src="couples archery2.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
