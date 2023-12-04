@@ -18,7 +18,7 @@ include "view-header.php";
   <br></br>
 <p>Welcome to Cupid's Bow, where hearts find their perfect match! At Cupid's Bow, we believe that everyone deserves a chance at love and companionship. Our innovative matchmaking algorithm pairs individuals based on compatibility, interests, and values, ensuring meaningful connections that go beyond mere surface attraction. Whether you're seeking a lifelong partner, a casual date, or someone to share your passions with, Cupid's Bow is your gateway to a world of romantic possibilities. Join our vibrant community of singles, create your profile with confidence, and embark on a journey to discover genuine connections. Love awaits – start your romantic adventure with Cupid's Bow today!</p>
 <div style="width: 100%; text-align: center;">
-  <span style="display: inline-block; margin: 0 auto;">
+  <span style="display: inline-block; ">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
       <div class="carousel-inner">
