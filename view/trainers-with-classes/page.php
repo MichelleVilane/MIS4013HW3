@@ -18,7 +18,7 @@ while ($trainer=$trainers -> fetch_assoc()) {
    ?>
       </ul>
       </p>
-      <p class="card-text"><small class="text-body-secondary">Studio: <?php echo $trainer['studio_number'];?></small></p>
+      <p class="card-text"><small class="text-body-secondary">Preferred Restaurant: <?php echo $trainer['studio_number'];?></small></p>
     </div>
   </div>
   <?php
