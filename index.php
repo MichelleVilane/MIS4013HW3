@@ -13,7 +13,7 @@ include "view-header.php";
   </head>
   <body>
     <div class="container">
-   <div class="text-bg-secondary p-3"><h1>PHOTO</h1></div>
+   <div class="text-bg-secondary p-3"><h1>Welcome to OUr One Stop Shop</h1></div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
  <img src="IMG_6569.JPG" class="img-thumbnail" alt="...">
