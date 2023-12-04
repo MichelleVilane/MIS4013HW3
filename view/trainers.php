@@ -12,9 +12,10 @@
     </thead>
       <tbody>
         <?php
-<br></br>
+
     <p>Hello, Michelle! Welcome back to your Cupid's Bow user portal. Here is a list of your potential dates and their preferred location to meet. 
     to make or cancel a date with any suitor, click the 'additional information' hyperlink. Goodluck!</p>
+        <br></br>
 while ($trainer=$trainers -> fetch_assoc()) {
 ?>
   <tr>
