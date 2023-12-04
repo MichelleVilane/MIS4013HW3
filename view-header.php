@@ -23,7 +23,7 @@
           <a class="nav-link" href="trainers.php">Scheduled Dates</a>
         </li>
          <li class="nav-item">           
-          <a class="nav-link" href="classes.php">Classes</a>
+          <a class="nav-link" href="classes.php">Dates</a>
         </li>
          <li class="nav-item">    
          <a class="nav-link" href="trainers-with-classes.php">Teachers with Classes</a>
