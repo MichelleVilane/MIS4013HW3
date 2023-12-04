@@ -1,6 +1,6 @@
 <?php
 require_once("util-db.php");
-require_once("model-session-by-class.php");
+require_once("model/session-by-class.php");
   
 $pageTitle= "Session By Class";
 include "view-header.php";
