@@ -26,10 +26,10 @@
           <a class="nav-link" href="classes.php">Dates</a>
         </li>
          <li class="nav-item">    
-         <a class="nav-link" href="trainers-with-classes.php">Teachers with Classes</a>
+         <a class="nav-link" href="trainers-with-classes.php">Suitor Profiles</a>
         </li>
         <li class="nav-item">    
-         <a class="nav-link" href="trainers-chart.php">Teachers' Chart</a>
+         <a class="nav-link" href="trainers-chart.php">Dates' Chart</a>
         </li>
         
       </ul>
