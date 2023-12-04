@@ -15,6 +15,7 @@ include "view-header.php";
 <div class="text-bg-danger p-3">
   <h1>Cupid's Bow Online Matchmaking</h1>
 </div>
+  <br></br>
 <p>Welcome to Cupid's Bow, where hearts find their perfect match! At Cupid's Bow, we believe that everyone deserves a chance at love and companionship. Our innovative matchmaking algorithm pairs individuals based on compatibility, interests, and values, ensuring meaningful connections that go beyond mere surface attraction. Whether you're seeking a lifelong partner, a casual date, or someone to share your passions with, Cupid's Bow is your gateway to a world of romantic possibilities. Join our vibrant community of singles, create your profile with confidence, and embark on a journey to discover genuine connections. Love awaits – start your romantic adventure with Cupid's Bow today!</p>
 <div style="width: 100%; text-align: center;">
   <span style="display: inline-block; margin: 0 auto;">
