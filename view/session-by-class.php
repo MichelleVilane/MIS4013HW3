@@ -5,7 +5,7 @@
       <tr>
         <th>Session ID</th>
        <th>Suitor</th>
-       <th>Class Description</th>
+       <th>Description</th>
         <th>Daytime</th>
        
       </tr>
