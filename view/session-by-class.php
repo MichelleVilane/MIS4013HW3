@@ -4,7 +4,7 @@
     <thead>
       <tr>
         <th>Session ID</th>
-       <th>Trainer ID</th>
+       <th>Suitor</th>
        <th>Class Description</th>
         <th>Daytime</th>
        
@@ -17,9 +17,9 @@
 ?>
   <tr>
       <td><?php echo $session['session_id'];?></td>
-      <td><?php echo $session['trainer_id'];?></td>
+      <td><?php echo $session['trainer_name'];?></td>
       <td><?php echo $session['class_description'];?></td>
-      <td><?php echo $session['daytime'] ;?></td>
+      <td><?php echo $session['day'] ;?></td>
   </tr>
   <?php
   
