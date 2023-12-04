@@ -25,7 +25,7 @@ include "view-header.php";
           <img src="couple2.webp" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="couple4.jpg" class="d-block w-100" alt="...">
+          <img src="couple5.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
           <img src="couple3.jpg" class="d-block w-100" alt="...">
