@@ -13,7 +13,7 @@
     </thead>
       <tbody>
         <?php
-while ($class= $classes -> fetch_assoc()) {
+while ($class= $Classes -> fetch_assoc()) {
 ?>
   <tr>
     <td><?php echo $class['class_id']; ?></td>
