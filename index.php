@@ -64,8 +64,9 @@ include "view-header.php";
         href="#!"
         role="button"
         data-mdb-ripple-color="dark"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
+        ><i class="fab fa-facebook-f"></i>
+                                        
+</a>
 
       <!-- Twitter -->
       <a
