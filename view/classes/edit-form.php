@@ -20,7 +20,7 @@
             <label for="cNumber<?php echo $class['class_id']; ?>" class="form-label">Class Number</label>
 <?php
 $classList= selectClassesForInput();
-$selectedClass= $class['class_number'];
+$selectedClass= $class['class_id'];
 include "view/classes/input-list.php";
 ?>
           </div>
