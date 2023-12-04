@@ -23,7 +23,7 @@ include "view-header.php";
     <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="couple2.webp" class="d-block w-100" alt="...">
+          <img src="austin-backyard-wedding-photos-12.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
           <img src="couples archery.jpg" class="d-block w-100" alt="...">
