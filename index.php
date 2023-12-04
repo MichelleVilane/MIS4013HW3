@@ -13,7 +13,7 @@ include "view-header.php";
   <body>
    
        <div class="text-bg-danger p-3"><h1>Cupid's Bow Online Matchmaking</h1></div>
-     <div>
+     <div class = "justify-container">
    <span style= "width: 50%; display: inline-block;">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
