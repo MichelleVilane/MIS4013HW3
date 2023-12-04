@@ -10,7 +10,7 @@
 <body>
          <br></br>
     <p>Hello, Michelle! Welcome back to your Cupid's Bow user portal. Here is a list of your potential dates and their preferred location to meet. 
-    to make or cancel a date with any suitor, click the 'additional information' hyperlink. Goodluck!</p>
+    to see more information about your suitor's meeting preferences, click the 'additional information' hyperlink. To make or cancel a date, please click on the 'Date' section of the navigation bar at the top of the screen. Goodluck!</p>
         <br></br>
 </body>
 </html>
