@@ -19,7 +19,7 @@
           <div class="mb-3">
             <label for="cNumber" class="form-label">Class Number</label>
         <?php
-$classList= selectClassForInput();
+$classList= selectClassesForInput();
 include "view/classes/page.php";
 
 ?>
