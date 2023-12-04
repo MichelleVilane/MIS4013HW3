@@ -1,4 +1,4 @@
-<h1>Trainers with Classes</h1>
+<h1>Suitor Profiles</h1>
 <div class="card-group">
  <?php
 while ($trainer=$trainers -> fetch_assoc()) {
