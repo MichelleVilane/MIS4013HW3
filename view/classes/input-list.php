@@ -2,7 +2,7 @@
 <?php
 while ($classItem =$classList -> fetch assoc()) {
   $selText="";
-  if ($selectedClass==$ClassItem['class_id']) {
+  if ($selectedClass==$ClassItem['class_number']) {
     $selText = " selected";
   }
   ?>
