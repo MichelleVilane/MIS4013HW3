@@ -33,7 +33,7 @@ if (isset($_POST['actionType'])) {
  }
    
 $classes = selectClasses();
-include "view/classes.php";
+include "view/classes/page.php";
 include "view-footer.php";
 ?>
 
