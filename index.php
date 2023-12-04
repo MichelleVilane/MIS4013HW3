@@ -3,7 +3,6 @@ $pageTitle= "Home";
 include "view-header.php";
 ?>
  <h1>Michelle's Art Corner</h1>
- <?php
 <!doctype html>
 <html lang="en">
   <head>
@@ -23,6 +22,8 @@ include "view-header.php";
       </div>
   </body>
 </html>
+ <?php
+
 
 include "view-footer.php";
 ?>
