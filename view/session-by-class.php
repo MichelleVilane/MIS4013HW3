@@ -17,7 +17,7 @@
 ?>
   <tr>
       <td><?php echo $session['session_id'];?></td>
-      <td><?php echo $session['trainer_name'];?></td>
+      <td><?php echo $session['trainer_id'];?></td>
       <td><?php echo $session['class_description'];?></td>
       <td><?php echo $session['day'] ;?></td>
   </tr>
