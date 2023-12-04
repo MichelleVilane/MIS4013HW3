@@ -1,4 +1,8 @@
 <h1>Suitors</h1>
+
+    <p>Hello, Michelle! Welcome back to your Cupid's Bow user portal. Here is a list of your potential dates and their preferred location to meet. 
+    to make or cancel a date with any suitor, click the 'additional information' hyperlink. Goodluck!</p>
+        <br></br>
 <div class="table-responsive">
   <table class="table">
     <thead>
