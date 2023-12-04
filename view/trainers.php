@@ -1,11 +1,11 @@
-<h1>Trainers</h1>
+<h1>Suitors</h1>
 <div class="table-responsive">
   <table class="table">
     <thead>
       <tr>
         <th>ID</th>
        <th>Name</th>
-       <th>Studio</th>
+       <th>Location</th>
         <th></th>
       </tr>
       
