@@ -4,9 +4,9 @@
     <thead>
       <tr>
         <th>ID</th>
-       <th>Number</th>
+       <th>Event/ Activities</th>
        <th>Description</th>
-        <th>Daytime</th>
+        <th>Day</th>
        
       </tr>
       
