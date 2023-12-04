@@ -2,7 +2,7 @@
 require_once("util-db.php");
 require_once("model/trainers-with-classes.php");
   
-$pageTitle= "Trainers with Classes";
+$pageTitle= "Suitor Profile";
 include "view-header.php";
 $trainers = selectTrainers();
 include "view/trainers-with-classes/page.php";
