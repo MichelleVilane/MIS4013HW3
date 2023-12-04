@@ -13,33 +13,7 @@ function selectClasses() {
     }
 }
 
-function selectSuitorsForInput() {
-    try {
-        $conn = get_db_connection();
-        $stmt = $conn->prepare("SELECT trainer_id, trainer_name FROM `trainer` order by trainer_name");
-        $stmt->execute();
-        $result = $stmt->get_result();
-        $conn->close();
-        return $result;
-    } catch (Exception $e) {
-        $conn->close();
-        throw $e;
-    }
-}
 
-function selectClassesForInput() {
-    try {
-        $conn = get_db_connection();
-        $stmt = $conn->prepare("SELECT class_id, class_number FROM `class` order by class_number");
-        $stmt->execute();
-        $result = $stmt->get_result();
-        $conn->close();
-        return $result;
-    } catch (Exception $e) {
-        $conn->close();
-        throw $e;
-    }
-}
 
 function insertClass($cNumber, $cDescription) {
     try {
