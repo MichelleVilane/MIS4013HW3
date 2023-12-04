@@ -18,11 +18,7 @@
       <form method="post" action="">
           <div class="mb-3">
             <label for="cNumber<?php echo $class['class_id']; ?>" class="form-label">Class Number</label>
-<?php
-$classList= selectClassesForInput();
-$selectedClass= $class['class_id'];
-include "view/classes/input-list.php";
-?>
+            <input type="text" class="form-control" id="cNumber" name="cNumber">
           </div>
          <div class="mb-3">
             <label for="cDescription<?php echo $class['class_id']; ?>" class="form-label">Class Description</label>
