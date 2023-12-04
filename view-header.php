@@ -20,16 +20,16 @@
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="trainers.php">Trainer</a>
+          <a class="nav-link" href="trainers.php">Teachers Available</a>
         </li>
          <li class="nav-item">           
           <a class="nav-link" href="classes.php">Classes</a>
         </li>
          <li class="nav-item">    
-         <a class="nav-link" href="trainers-with-classes.php">Trainers with Classes</a>
+         <a class="nav-link" href="trainers-with-classes.php">Teachers with Classes</a>
         </li>
         <li class="nav-item">    
-         <a class="nav-link" href="trainers-chart.php">Trainers Chart</a>
+         <a class="nav-link" href="trainers-chart.php">Teachers' Chart</a>
         </li>
         
       </ul>
