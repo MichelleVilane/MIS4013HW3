@@ -12640,7 +12640,7 @@ body {
 </head>
 <body>
 
-<div class="text-bg-danger p-3">
+<div class="text-bg-danger p-3; container">
   <h1>Cupid's Bow Archery & Matchmaking - User Portal</h1>
 </div>
     <br></br>
