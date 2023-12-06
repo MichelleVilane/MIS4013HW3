@@ -10,10 +10,11 @@
 <body>
   <br></br>
   <div style="width: 100%; text-align: center;" class="container">
+    <h1>Suitors</h1>
+        <br></br>
     <span style="display: inline-block; margin: 0 auto; border: 5px solid black; padding: 10px;">
 
-      <h1>Suitors</h1>\
-        <br></br>
+      
     <p>Hello, Michelle! Welcome back to your Cupid's Bow user portal. Here is a list of your potential dates and their preferred restaurants in case you want to meet somewhere different. 
     To see more information about your suitor's archery preferences, click the 'additional information' hyperlink. To edit your archery preferences, please click on the 'Date' section of the navigation bar at the top of the screen. Goodluck!</p>
         
