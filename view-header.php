@@ -10,7 +10,7 @@
 
   </head>
   <body>
- <div class= "container">
+ <div class= "container-fluid">
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
   <div class="container">
     <a class="navbar-brand" href="#">Cupid's Bow</a>
