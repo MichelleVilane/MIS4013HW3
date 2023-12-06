@@ -12640,7 +12640,7 @@ body {
 </head>
 <body>
  <br></br>
-<div class="text-bg-primary p-2; container-fluid">
+<div class="text-bg-primary p-2; container">
  
   <h1>Cupid's Bow Archery & Matchmaking - User Portal</h1>
 </div>
