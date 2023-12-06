@@ -21,7 +21,18 @@
 </body>
 </html>
 <div class="table-responsive">
-  <table class="table">
+  
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Preferred Location</th>
+      <th scope="col">Additional Info</th>
+    </tr>
+  </thead>
+<!--
+<table class="table">
     <thead>
       <tr>
         <th>ID</th>
@@ -30,7 +41,7 @@
         <th></th>
       </tr>
       
-    </thead>
+    </thead> -->
       <tbody>
         <?php
 
