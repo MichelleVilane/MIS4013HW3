@@ -9,7 +9,7 @@
 </head>
 <body>
   <br></br>
-  <div style="width: 100%; text-align: center;">
+  <div style="width: 100%; text-align: center;" class="container">
     <span style="display: inline-block; margin: 0 auto; border: 5px solid black; padding: 10px;">
          
     <p>Hello, Michelle! Welcome back to your Cupid's Bow user portal. Here is a list of your potential dates and their preferred restaurants in case you want to meet somewhere different. 
