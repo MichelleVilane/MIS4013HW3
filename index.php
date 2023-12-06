@@ -19,6 +19,8 @@ include "view-header.php";
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+
 :root,
 [data-bs-theme=light] {
   --bs-blue: #3a8fd9;
