@@ -11,7 +11,7 @@ include "view-header.php";
   <title>Bootstrap demo</title>
   <!-- Replace the link with the path to your compiled Sass code -->
   <link href="https://bootswatch.com/quartz/" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
 </head>
 <body>
 
