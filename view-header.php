@@ -12663,15 +12663,11 @@ body {
     
             <a class="dropdown-item" href="trainers-chart.php">Date Charts</a>
             <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
+            
           </div>
         </li>
       </ul>
-      <form class="d-flex">
-        <input class="form-control me-sm-2" type="search" placeholder="Search">
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-      </form>
+      
     </div>
   </div>
     </div>
