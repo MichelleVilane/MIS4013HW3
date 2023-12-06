@@ -12644,7 +12644,7 @@ body {
   <h1>Cupid's Bow Archery & Matchmaking - User Portal</h1>
 </div>
     <br></br>
-  <div style=" width: 100%; text-align: center;">
+  <div style=" width: 100%; text-align: center;" class="container">
     <span style="display: inline-block; margin: 0 auto; border: 5px solid gray; padding: 10px;">
 
 <p>Welcome to Cupid's Bow, where passion for archery meets the thrill of love! Immerse yourself in the world of arrows and affection as you embark on a unique journey to find your perfect match. Cupid's Bow is not just a matchmaking platform; it's a community where archery enthusiasts come together to share their love for the sport and explore romantic connections. Picture yourself meeting like-minded individuals who share your passion for archery, enjoying the excitement of hitting bullseyes while forging meaningful connections. Our platform seamlessly blends the art of matchmaking with the precision of archery, offering a one-of-a-kind experience for those who believe in the power of love and the joy of a well-aimed shot. Join Cupid's Bow, where love and archery collide, and let the adventure begin!</p>
