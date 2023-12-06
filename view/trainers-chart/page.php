@@ -28,6 +28,8 @@
   });
 </script>
 
+<!--
+
 <div id="chart"></div>
 <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 
@@ -86,5 +88,5 @@ new Chartist.Line('.ct-chart', {
       chartPadding: {
         right: 250
       }
-    });
+    }); -->
   </script>
