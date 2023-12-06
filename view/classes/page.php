@@ -1,7 +1,7 @@
 <div class="row" >
 <div class="col">
     <br></br>
-    <div class="text-bg-danger p-3">
+    <div class="text-bg-primary p-2; container">
   <h1> My Date Preferences</h1>
 </div>
     <br></br>
