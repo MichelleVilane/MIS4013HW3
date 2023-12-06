@@ -12639,9 +12639,9 @@ body {
   </style>
 </head>
 <body>
-
-<div class="text-bg-primary p-2; container">
-  <br></br>
+ <br></br>
+<div class="text-bg-primary p-2; container-fluid">
+ 
   <h1>Cupid's Bow Archery & Matchmaking - User Portal</h1>
 </div>
     <br></br>
