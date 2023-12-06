@@ -10,7 +10,7 @@ include "view-header.php";
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bootstrap demo</title>
   <!-- Replace the link with the path to your compiled Sass code -->
-  <link href="https://bootswatch.com/quartz/" rel="stylesheet">
+  <link href="‪C:\Users\vilan\Downloads\_bootswatch.scss" rel="stylesheet">
 
 </head>
 <body>
