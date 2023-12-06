@@ -12,7 +12,7 @@ include "view/classes/new-form.php";
 ?>
 </div>
 </div>
-<div class="table-responsive">
+<div class="table-responsive; container">
   <table class="table">
     <thead>
       <tr>
