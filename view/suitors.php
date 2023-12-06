@@ -22,7 +22,7 @@
 </html>
 <div class="table-responsive">
   
-<table class="table table-hover">
+<table class="table table-hover; table-primary">
   <thead>
     <tr>
       <th scope="col">ID</th>
