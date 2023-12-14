@@ -37,6 +37,7 @@
       </div>
     </div>
   </div>
+  </div>
   <div class="row row-cols-1 row-cols-md-2 g-4; container-fluid">
   <div class="col">
     <div class="card">
