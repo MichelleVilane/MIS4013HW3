@@ -1,5 +1,5 @@
 
-<div class="container"
+<div class="container">
 <h1>Suitor Profiles</h1>
 </div>
 
