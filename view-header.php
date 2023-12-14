@@ -12652,7 +12652,7 @@ body {
            <a class="nav-link" href="suitors.php">Suitors</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="classes.php">Dates</a>
+          <a class="nav-link" href="dates.php">Dates</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="suitor-profiles.php">Suitor Profiles</a>
