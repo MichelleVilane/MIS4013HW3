@@ -27,7 +27,8 @@
     </div>
   </div>
 </div>
-  
+
+  <div class="row row-cols-1 row-cols-md-2 g-4; container">
   <div class="col">
     <div class="card">
       <img src="man.webp" class="card-img-top" alt="...">
@@ -37,7 +38,8 @@
       </div>
     </div>
   </div>
-  
+  </div>
+  <div class="row row-cols-1 row-cols-md-2 g-4; container">
   <div class="col">
     <div class="card">
       <img src="leo.jpg" class="card-img-top" alt="...">
@@ -47,7 +49,8 @@
       </div>
     </div>
   </div>
-  
+  </div>
+  <div class="row row-cols-1 row-cols-md-2 g-4; container">
   <div class="col">
     <div class="card">
       <img src="mgb.webp" class="card-img-top" alt="...">
@@ -56,6 +59,7 @@
         <p class="card-text">🏋️‍♂️ Fitness enthusiast, bookworm, and finance analyst by day! 📈 Embracing the balance of an active lifestyle and the tranquility of a good read. Whether I'm breaking a sweat at the gym or diving into the pages of a compelling story, life's about constant growth and exploration. I'm all about trying new things and finding joy in every experience. Seeking a partner who values both the thrill of staying active and the quiet moments with a good book. If you're ready to embark on a journey of fitness, literature, and financial adventures, swipe right! 📚💪 #ActiveLifestyle #BookishExplorer #CupidsBowFinance.</p>
       </div>
     </div>
+  </div>
   </div>
 
 </body>
