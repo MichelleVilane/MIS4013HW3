@@ -12662,7 +12662,7 @@ body {
           <div class="dropdown-menu">
     
             <a class="dropdown-item" href="trainers-chart.php">Date Charts</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+            
             
           </div>
         </li>
