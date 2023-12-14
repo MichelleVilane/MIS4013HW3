@@ -35,6 +35,7 @@
       </div>
     </div>
   </div>
+  <div class="row row-cols-1 row-cols-md-2 g-4; container-fluid">
   <div class="col">
     <div class="card">
       <img src="leo.jpg" class="card-img-top" alt="...">
@@ -43,6 +44,7 @@
         <p class="card-text">🎣 Passionate about reeling in big catches and casting a line into life's adventures! 🎉 As the life of the party, I bring the energy wherever I go, making every moment memorable. Whether it's a spontaneous road trip, a night of laughter, or a quiet day by the water, I believe in living life to the fullest. Looking for a partner who shares a love for spontaneity, good vibes, and the thrill of the catch. If you're ready to dive into a sea of fun and build a connection that's as exciting as a tight line, let's make waves together! 🚗🌊 #PartyAnimal #AdventureSeeker #CupidsBowFishing.</p>
       </div>
     </div>
+  </div>
   </div>
   <div class="col">
     <div class="card">
