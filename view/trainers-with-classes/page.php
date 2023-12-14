@@ -1,11 +1,11 @@
 
 <div class="container">
 <h1>Suitor Profiles</h1>
-</div>
 
 
 
-</div>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -64,7 +64,6 @@
     </div>
   </div>
   </div>
-</div>
 
 
 </body>
