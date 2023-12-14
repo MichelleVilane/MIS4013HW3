@@ -16,7 +16,7 @@
 </head>
 <body>
 <br></br>
-  <div class="container"
+  
 <div class="row row-cols-1 row-cols-md-2 g-4; container">
   <div class="col">
     <div class="card">
@@ -27,7 +27,8 @@
       </div>
     </div>
   </div>
-</div>
+  </div>
+
 
   <div class="row row-cols-1 row-cols-md-2 g-4; container">
   <div class="col">
@@ -38,6 +39,7 @@
         <p class="card-text">🌿 Outdoor enthusiast with a passion for painting, a heart for dogs, and a quest for a lifelong adventure partner! 🎨🐾 Whether I'm chasing sunsets on a hiking trail, channeling my creativity onto a canvas, or sharing moments of joy with my furry companion, life's all about the simple pleasures. On the lookout for a kindred spirit who values nature, appreciates the strokes of a paintbrush, and understands the unconditional love a dog brings. Let's explore the canvas of life together – if you're ready for a palette of love and laughter, swipe right! 🌄🖌️ #NatureLover #DogEnthusiast #CupidsBowAdventures.</p>
       </div>
     </div>
+  </div>
   </div>
   
   <div class="row row-cols-1 row-cols-md-2 g-4; container">
