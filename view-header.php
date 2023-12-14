@@ -12655,7 +12655,7 @@ body {
           <a class="nav-link" href="classes.php">Dates</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="trainers-with-classes.php">Suitor Profiles</a>
+            <a class="nav-link" href="suitor-profiles.php">Suitor Profiles</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
